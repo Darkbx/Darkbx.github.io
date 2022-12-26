@@ -1,0 +1,158 @@
+@import url("font-family: 'Open Sans', sans-serif;");
+@import url("font-family: 'Bebas Neue', cursive;");
+
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family:'Open Sans', sans-serif;
+}
+
+/*BODY#07116b,#07116b*/
+body {   
+    margin: 0;
+    min-height: 100vh;
+    background-image:url(imgs/marsi1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+body:before{
+    content: "";
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg,gray, gray);
+    opacity: 0.7;
+    z-index: -1;
+}
+
+/*BODY P*/
+
+/*Prologo_Body*/
+.carta1 {
+    width: 100%;
+    height: 1070px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 70px;
+    background: oldlace;
+    border-top: 6px solid rgba(9, 10, 10, 0.925);
+
+}
+
+.carta1 p {
+    font-family: 'Zen Old Mincho', serif;
+    font-size: 18px;
+    font-weight: 20px;
+    margin-top: 50px;
+}
+
+.carta1 img {
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+body .carta1 h1 {
+    text-align: center;
+    color: rgba(9, 10, 10, 0.925);
+    padding: 90px;
+    font-family:'Bebas Neue', cursive;
+}
+
+body .carta1 h2 {
+    text-align: center;
+    padding: 50px;
+    margin-top: -130px;
+    color: red;
+    font-family:'Bebas Neue', cursive;
+}
+
+
+body .carta1 img {
+    display: block;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    width: 250px;
+    float: left;
+}
+
+
+
+/*LOGO*/
+.logo {
+    color: #fff;
+    font-size: 35px;
+    padding: 0 80px;
+    font-weight: bold;
+}
+
+
+/*MENU*/
+.menu {
+    background-color: rgba(9, 10, 10, 0.925);
+    height: 75px;
+    width: 100vw;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+    box-shadow: 5px 0 10px #fff;
+}
+
+.menu_items {
+    display: flex;
+    list-style: none;
+    margin-right: 30px;   
+}
+
+.menu_items li {
+    border-radius: 3px;
+    margin: 0 5px ;
+}
+
+.menu_items li a {
+    padding: 7px 13px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.menu_items li:hover, li.active {
+    background-color: rgba(252, 252, 252, 0.3);
+    transition: .4s;
+}
+
+.btn_menu {
+    margin-right: 30px;
+    font-size: 25px;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+}
+
+
+/*Footer*/
+footer {
+    font-family:'Shippori Antique', sans-serif;
+    font-size: 14px;
+    text-align: right;
+    color: white;
+    padding: 1em 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/*OTRAS_ETIQUETAS*/
+ul.show {
+    top: 65px;
+}
